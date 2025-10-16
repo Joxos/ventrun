@@ -26,19 +26,19 @@ wheels = [
 
 [[package]]
 name = "moduvent"
-version = "5.4"
+version = "5.6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "loguru" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c7/1e/586b88e2b7a30c947d7a1a13b343d42d997c295feb388fe0e532d4ab1750/moduvent-5.4.tar.gz", hash = "sha256:57239e20e30a266e204d3db2fe5bd5b0a20ba60e5ed09a1eef65e2258fa6826f", size = 21955, upload-time = "2025-10-15T07:11:50.517Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a7/61/3105de7644ba0fba971c5120a07da25249c86b1fed6986cb44843ae684ff/moduvent-5.6.tar.gz", hash = "sha256:26b4c7cf07667c093b01361d02a2577293a7f880c43a7ba9f490391883f5e96f", size = 21961, upload-time = "2025-10-16T14:51:38.574Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b2/e8/3c4f38151d2b015f18242171b02ddce983252229a265493c9dad4d027807/moduvent-5.4-py3-none-any.whl", hash = "sha256:eb8f3c5b16e8b88188a7e695744b10cc7837a5a17ac4bcc89550e3ab19238446", size = 17055, upload-time = "2025-10-15T07:11:49.17Z" },
+    { url = "https://files.pythonhosted.org/packages/01/0c/a35bf3fd4f4a181c1c3be17b2cffd613b6d69e10ef4880398e295f1034c0/moduvent-5.6-py3-none-any.whl", hash = "sha256:bc3ee7f3ce5ab5f439d73881c111ca0e5fd739d63a6fc3ace441440bbf9ac478", size = 17043, upload-time = "2025-10-16T14:51:37.527Z" },
 ]
 
 [[package]]
 name = "ventrun"
-version = "1.2"
+version = "1.5"
 source = { virtual = "." }
 dependencies = [
     { name = "loguru" },
@@ -48,11 +48,8 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "loguru", specifier = ">=0.7.3" },
-    { name = "moduvent", specifier = ">=5.1" },
+    { name = "moduvent", specifier = ">=5.5" },
 ]
-
-[package.metadata.requires-dev]
-dev = []
 
 [[package]]
 name = "win32-setctime"
